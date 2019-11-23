@@ -3,7 +3,7 @@ import my_module # Import estándar
 # from my_module import vol_prisma # Import específico (o todos, con *)
 # from my_module import vol_prisma as vol_prisma_cuad # Import con renombre
 
-print(my_module.area_circulo(3))
+print(f"{my_module.area_circulo(3):.2f}")
 
 print(my_module.area_cuadrado(4))
 
@@ -16,4 +16,4 @@ def vol_prisma(area_base, altura):
   return area_base * altura
 
 # ¿Qué valor regresa la función? ¿100 o 20?
-vol_prisma(5, 4)
+print(vol_prisma(5, 4))

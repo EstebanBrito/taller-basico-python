@@ -25,9 +25,11 @@ mayor = a if condicion else b
 
 # Solución anterior (aunque poco legible)
 mayor = a if a>b & a>c else b if b>a & b>c else c
+print('Numero mayor:', mayor)
+
 
 # Bloque elif
-opcion = input('Ingresa una letra (A, B, C)')
+opcion = input('Ingresa una letra (A, B, C): ')
 opcion = opcion.upper()
 
 if(opcion == 'A'):
