@@ -17,6 +17,14 @@ mi_variable = [1, 6, 3, 3]
 print(mi_variable)
 
 
+# Operaciones (+, -, *, /)
+resul = 4 // 7
+print(resul) 
+
+resul = 3**3
+print(resul)
+
+
 # I/0
 # Detecta entre números...
 mi_variable = input("Ingresa un número:")
